@@ -60,7 +60,7 @@ p { margin-top: 0; }
 .menu-toggle { display: none; width: 44px; height: 44px; border: 1px solid var(--line); border-radius: 4px; background: var(--white); color: var(--green); cursor: pointer; font-size: 1.35rem; }
 
 .hero { position: relative; display: flex; min-height: 610px; align-items: center; overflow: hidden; background: var(--green-deep); color: var(--white); }
-.hero::before { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(7,31,25,.92) 0%, rgba(7,31,25,.76) 42%, rgba(7,31,25,.18) 100%), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=2000&q=85') center 43%/cover; content: ''; }
+.hero::before { position: absolute; inset: 0; background-color: var(--green-deep); background-image: linear-gradient(90deg, rgba(7,31,25,.92) 0%, rgba(7,31,25,.76) 42%, rgba(7,31,25,.24) 100%), url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=2000&q=85'), radial-gradient(ellipse at 78% 30%, rgba(215,169,75,.48), transparent 18%), radial-gradient(ellipse at 86% 76%, rgba(38,113,89,.9), transparent 40%), linear-gradient(140deg, #123d32, #081c17); background-position: center, center 43%, center, center, center; background-size: cover; background-repeat: no-repeat; content: ''; }
 .hero-content { position: relative; z-index: 1; width: min(720px, 100%); padding: 82px 0; }
 .hero .eyebrow { color: #edc76e; }
 .hero h1 { max-width: 720px; margin-bottom: 22px; }
@@ -76,7 +76,7 @@ p { margin-top: 0; }
 .page-hero .eyebrow { color: #edc76e; }
 
 .intro-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(36px, 7vw, 95px); }
-.photo-panel { position: relative; min-height: 440px; border-radius: 4px; background: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1100&q=85') center/cover; }
+.photo-panel { position: relative; min-height: 440px; border-radius: 4px; background-color: #dce5dc; background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1100&q=85'), radial-gradient(ellipse at 70% 30%, rgba(215,169,75,.65), transparent 19%), radial-gradient(ellipse at 35% 75%, rgba(18,61,50,.78), transparent 44%), linear-gradient(135deg, #dce5dc, #9fb3a2); background-position: center, center, center, center; background-size: cover; background-repeat: no-repeat; }
 .photo-panel::after { position: absolute; right: -18px; bottom: -18px; z-index: -1; width: 60%; height: 52%; background: var(--gold); content: ''; }
 .photo-caption { position: absolute; right: -18px; bottom: 18px; max-width: 245px; padding: 18px 20px; background: var(--white); box-shadow: var(--shadow); }
 .photo-caption strong { display: block; color: var(--green); font-family: var(--serif); font-size: 1.15rem; }
