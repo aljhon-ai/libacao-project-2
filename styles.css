@@ -102,6 +102,24 @@ p { margin-top: 0; }
 .course-code { display: inline-block; margin-bottom: 14px; color: #94702b; font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .course-card h3 { margin-bottom: 10px; color: var(--green); }
 .course-card p { margin-bottom: 0; color: var(--muted); font-size: .92rem; }
+.senior-high-section { background: #f0f3f8; }
+.senior-high-heading { max-width: 760px; margin-bottom: 42px; }
+.senior-high-heading h2 { margin-bottom: 12px; }
+.senior-high-heading .lead { margin-bottom: 18px; }
+.senior-path-title { margin-bottom: 14px; font-family: var(--serif); font-size: clamp(1.7rem, 3vw, 2.4rem); }
+.grade-badge { display: inline-block; padding: 7px 12px; border-radius: 2px; background: var(--green); color: var(--white); font-size: .8rem; font-weight: 700; }
+.course-next-links { display: flex; flex-wrap: wrap; gap: 18px 30px; margin-top: 20px; }
+.track-heading { margin: 48px 0 24px; }
+.track-heading h3 { margin-bottom: 8px; color: var(--green); font-family: var(--serif); font-size: 1.8rem; }
+.track-heading p:last-child { margin-bottom: 0; color: var(--muted); }
+.track-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.track-card { padding: 28px; border: 1px solid var(--line); border-top: 3px solid var(--gold); background: var(--white); }
+.track-card-heading h4 { margin: 8px 0 12px; color: var(--green); font-size: 1.12rem; }
+.track-code { color: #94702b; font-size: .75rem; font-weight: 700; letter-spacing: .12em; }
+.track-card > p { color: var(--muted); font-size: .92rem; }
+.track-details { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--line); }
+.track-details h5 { margin: 0 0 10px; color: var(--green); font-size: .8rem; letter-spacing: .05em; text-transform: uppercase; }
+.track-list { display: grid; gap: 6px; margin: 0; padding-left: 18px; color: var(--muted); font-size: .82rem; }
 .program-card { min-height: 270px; padding: 28px; border-top: 3px solid var(--gold); background: var(--white); }
 .program-card .number { display: block; margin-bottom: 30px; color: #a1ab9f; font-family: var(--serif); font-size: 1.2rem; }
 .program-card h3 { color: var(--green); }
@@ -188,9 +206,12 @@ p { margin-top: 0; }
   .section { padding: 68px 0; }
   .intro-grid, .contact-grid { grid-template-columns: 1fr; }
   .course-grid { grid-template-columns: 1fr; }
+  .track-details { grid-template-columns: 1fr; }
   .photo-panel { min-height: 340px; margin-right: 14px; }
   .feature-grid, .program-grid, .profile-grid, .price-grid { grid-template-columns: 1fr; }
   .pillars-grid { grid-template-columns: 1fr; }
+  .track-grid { grid-template-columns: 1fr; }
+  .track-details { grid-template-columns: 1fr 1fr; }
   .feature-card, .info-card { padding: 23px; }
   .callout { align-items: flex-start; flex-direction: column; padding: 32px 24px; }
   .event-item { grid-template-columns: 54px 1fr; gap: 16px; padding: 18px; }
