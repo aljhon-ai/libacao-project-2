@@ -173,6 +173,7 @@ p { margin-top: 0; }
 .contact-panel { padding: 30px; background: var(--green); color: var(--white); }
 .contact-panel h2 { font-size: 1.8rem; }
 .contact-panel p { color: rgba(255,255,255,.76); }
+.contact-panel .contact-welcome { margin: 20px 0 0; color: var(--gold); font-weight: 700; }
 .contact-detail { padding: 17px 0; border-top: 1px solid rgba(255,255,255,.18); }
 .contact-detail strong { display: block; color: var(--gold); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
 .contact-detail span { color: rgba(255,255,255,.86); }
@@ -188,6 +189,8 @@ p { margin-top: 0; }
 .site-footer { padding: 60px 0 24px; background: var(--green-deep); color: var(--white); }
 .site-footer .brand-mark { border-radius: 50%; background-color: var(--white); }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 55px; padding-bottom: 42px; }
+.contact-footer-grid { grid-template-columns: 1.3fr 1fr 1fr; }
+.footer-links span { overflow-wrap: anywhere; }
 .site-footer .brand { margin-bottom: 18px; color: white; }
 .site-footer .brand-subtitle { color: rgba(255,255,255,.62); }
 .footer-about { max-width: 350px; color: rgba(255,255,255,.68); font-size: .9rem; }

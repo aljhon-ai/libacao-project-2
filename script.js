@@ -34,7 +34,7 @@ if (contactForm) {
     event.preventDefault();
     const status = document.querySelector('[data-form-status]');
     if (status) {
-      status.textContent = 'This demo form is not connected yet. Please contact the college office directly.';
+      status.textContent = 'This demo form does not send messages. Please use the email or phone details on this page.';
     }
   });
 }
